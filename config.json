@@ -1,0 +1,25 @@
+{
+  "strava": {
+    "client_id": "YOUR_CLIENT_ID",
+    "client_secret": "YOUR_CLIENT_SECRET",
+    "refresh_token": "YOUR_REFRESH_TOKEN",
+    "access_token": "YOUR_ACCESS_TOKEN"
+  },
+  "training_preferences": {
+    "default_timeline_weeks": 16,
+    "max_weekly_mileage": 70,
+    "preferred_long_run_day": "Sunday",
+    "rest_days_per_week": 2,
+    "include_cross_training": true
+  },
+  "runner_profile": {
+    "experience_level": "auto_detect",
+    "goal_marathon_time": null,
+    "injury_history": [],
+    "preferred_workout_types": [
+      "tempo",
+      "intervals",
+      "long_runs"
+    ]
+  }
+}
